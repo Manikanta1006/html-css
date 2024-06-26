@@ -1,0 +1,248 @@
+<html>
+    <head>
+      <!-- Option 1: Include in HTML -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+         
+       <title>
+            flex one
+        </title>
+            <style>
+                .container{
+                    display:flex;
+                    position: relative;
+                    border: 1px solid;
+                    width: 50%;
+                    height:50%;
+                    /* position: relative; */
+                    /* justify-content:flex-end; */
+                    /* position:relative right 40px; */
+                    /* justify-content: flex-end;
+                    justify-content: center; */
+                    justify-content:bottom 10px;
+                    
+                    
+
+                    
+                     
+                }
+                .nav{
+                    display:flex;
+                     background-color: rgb(62, 62, 253);
+                     
+                    width:50%;
+                    height: 30px;
+                    border: 1px solid;
+                    border-bottom: 0;
+
+                     
+                
+                }
+                .n1{
+                    /* border: 2px solid; */
+                    color: white;
+                    padding: 3px;
+                    position: flex-start;
+                    position: absolute;
+                    
+                }
+                .n2{
+                    /* border: 2px solid; */
+                    color: white;
+                    padding: 3px;
+                    position: absolute;
+                    left: 160px;
+                    
+                }
+                .n3{
+                    /* border: 2px solid; */
+                    color: white;
+                    padding: 3px;
+                    position: absolute;
+                    
+                    right:58%;
+                    
+                }
+                .n4{
+                    /* border: 2px solid; */
+                    color: white;
+                    padding: 3px;
+                    position: flex-end;
+                    position: absolute;
+                    right: 55%;
+                    
+                }
+                .bb1{
+                    width: 80px;
+                    height: 30px;
+                    text-align: center;
+                    position: absolute;
+                    padding: 10px;
+                    margin: 3px;
+                    border: 2px solid;
+                    right: 10%;
+                    bottom: 10%;
+                }
+                .bb2{
+                    width: 80px;
+                    height: 30px;
+                    text-align: center;
+                    position: absolute;
+                    padding: 10px;
+                    margin: 3px;
+                    border: 2px solid;
+                    right: 27%;
+                    bottom: 10%;
+                }
+                .bb3{
+                    width: 80px;
+                    height: 30px;
+                    text-align: center;
+                    position: absolute;
+                    padding: 10px;
+                    margin: 3px;
+                    border: 2px solid;
+                    right: 44%;
+                    bottom: 10%;
+                    
+                   
+                    
+                }
+                .btm{
+                    display:flex;
+                     position: relative;
+                    width:50%;
+                    height: 40%;
+                    
+                   justify-content: center;
+                    align-items: center;
+                    
+                    margin-top: 0;
+                  
+                }
+        
+                    
+                
+                
+                .db1{
+                    width: 20%;
+                    height: 50%;
+                    /* border: 2px solid; */
+                    margin: 10px;
+                    position: relative;
+                   justify-content: center;
+                   text-align: center;
+                
+                   background-color: rgb(198, 198, 217);
+                   /* color: rgb(91, 91, 254); */
+                }
+                .db2{
+                    width: 20%;
+                    height: 50%;
+                    /* border: 2px solid; */
+                    margin: 10px;
+                     position: relative;
+                     text-align: center;
+                     justify-content: middle;
+                     background-color: rgb(213, 213, 244);
+                     /* color: rgb(91, 91, 254); */
+                }
+                .db3{
+                    width: 20%;
+                    height: 50%;
+                    /* border: 2px solid; */
+                    margin: 10px;
+                    position: relative;
+                    text-align: center;
+                    background-color: rgb(211, 211, 230);
+                    /* color: rgb(91, 91, 254); */
+                }
+                #lg{
+                    color: rgb(91, 91, 254); 
+                    position: absolute;
+                    z-index: 1;
+                    padding: 40px;
+                    top: 0px;
+                    left: 125px;
+                    font-size: 30px;
+                    
+                }
+                #lg2{
+                    color: rgb(91, 91, 254); 
+                    position: absolute;
+                    z-index: 1;
+                    padding: 40px;
+                    left: 0px;
+                    top: 0px;
+                    left: 280px;
+                    text-shadow: 10px white;
+                    
+                    
+                }
+                #lg3{
+                    
+                    color: rgb(91, 91, 254); 
+                    z-index: 1;
+                    position: absolute;
+                    padding: 40px;
+                    right: 130px;
+                    top: 0px;
+                    
+                    
+                    
+                }
+                 
+                
+                /* .bb2{
+                    width: 40px;
+                    height: 20px;
+                    top:150px;
+                    
+                    padding: 10px;
+                    border: 2px solid;
+                    
+                }
+                .bb3{
+                    width: 40px;
+                    height: 20px;
+                    top:200px;
+                
+                    padding: 10px;
+                    border: 2px solid;
+               
+                } */
+
+                
+            </style>
+        </head>
+        <body>
+        
+            <div class="nav">
+               
+              <div class="n1"><i class="bi bi-envelope"></i> Info@gmail.com</div>  
+              <div class="n2"><i class="bi bi-telephone-fill"></i> 088-2354256</div> 
+              <div class="n3"><i class="bi bi-facebook"></i></div>  
+              <div class="n4"><i class="bi bi-twitter"></i></div>  
+            
+        </div>
+        <div class="container">
+            <div class="bb1">React Js</div>
+            <div class="bb2">Mean Stack</div>
+            <div class="bb3">Mern Stack</div>
+            </div>
+            <div class="btm">
+                <i id="lg" style="font-size: xx-large;" class="bi bi-emoji-smile-fill"></i>
+                <i id="lg2" style="font-size: xx-large;" class="bi bi-headset"></i>
+                <i id="lg3"  style="font-size: xx-large;" class="bi bi-emoji-smile-fill"></i>
+                    <div class="db1"> </div>
+                    <div class="db2"></div>
+                    <div class="db3"></div>
+            </div>
+        </body>
+
+        <!-- <ul class="u">
+            <li class="a"><i class="bi bi-envelope"></i>Info@gmail.com</li>
+            <li class="b"><i class="bi bi-telephone-fill"></i>088-2354256</li>
+            <li class="c"><i class="bi bi-facebook"></i><i class="bi bi-twitter"></i></li>
+            <li class="d"></li>
+        </ul>
+    </div> -->
